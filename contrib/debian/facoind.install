@@ -1,2 +1,0 @@
-debian/bin/facoind usr/bin
-src/facoind usr/lib/facoin
