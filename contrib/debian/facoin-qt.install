@@ -1,0 +1,5 @@
+facoin-qt usr/bin
+share/pixmaps/facoin32.xpm usr/share/pixmaps
+share/pixmaps/facoin80.xpm usr/share/pixmaps
+debian/facoin-qt.desktop usr/share/applications
+debian/facoin-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,9 @@
+Building FACOIN
+
+See doc/readme-qt.rst for instructions on building FACOIN QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of FACOIN.
+
+See doc/build-*.txt for instructions on building facoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of FACOIN.
