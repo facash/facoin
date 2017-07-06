@@ -1005,7 +1005,43 @@ int64_t GetProofOfWorkReward(int64_t nFees)
 
             if(nBestHeight == 0)
             {
-            nSubsidy = 10000 * COIN;
+            nSubsidy = 10000000 * COIN;
+            }
+            if(nBestHeight == 1)
+            {
+            nSubsidy = 10000000 * COIN;
+            }
+            if(nBestHeight == 2)
+            {
+            nSubsidy = 10000000 * COIN;
+            }
+            if(nBestHeight == 3)
+            {
+            nSubsidy = 10000000 * COIN;
+            }
+            if(nBestHeight == 4)
+            {
+            nSubsidy = 10000000 * COIN;
+            }
+            if(nBestHeight == 5)
+            {
+            nSubsidy = 10000000 * COIN;
+            }
+            if(nBestHeight == 6)
+            {
+            nSubsidy = 10000000 * COIN;
+            }
+            if(nBestHeight == 7)
+            {
+            nSubsidy = 10000000 * COIN;
+            }
+            if(nBestHeight == 8)
+            {
+            nSubsidy = 10000000 * COIN;
+            }
+            if(nBestHeight == 9)
+            {
+            nSubsidy = 10000000 * COIN;
             }
 
     if (fDebug && GetBoolArg("-printcreation"))
