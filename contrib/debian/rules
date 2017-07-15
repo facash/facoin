@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+#DEB_MAKE_CHECK_TARGET = test_facoin
+#build/facoind::
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_facoin)
+
+DEB_INSTALL_EXAMPLES_facoind += debian/examples/*
+DEB_INSTALL_MANPAGES_facoind += debian/manpages/*
+
+%:
+	dh --with bash-completion $@
+
+override_dh_auto_build:
+	cd src; $(MAKE) -f makefile.unix facoind
+	$(MAKE)
+
+override_dh_auto_clean:
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f facoin-qt; fi
+	cd src; $(MAKE) -f makefile.unix clean
+
+override_dh_auto_configure:
+	qmake facoin-qt.pro USE_QRCODE=1
+
+override_dh_auto_test:
+	cd src; $(MAKE) -f makefile.unix test_facoin
+	src/test_facoin
+
+# Ensure wrapper is set executable
+binary-post-install/facoind:
+	chmod +x $(cdbs_curdestdir)usr/bin/facoind
+binary-post-install/facoin-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/facoin-qt
