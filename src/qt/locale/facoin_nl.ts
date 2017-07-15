@@ -1068,8 +1068,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>FACOIN-Qt</source>
-        <translation>FACOIN-Qt</translation>
+        <source>facoin-qt</source>
+        <translation>facoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1548,7 +1548,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FACOIN-Qt help message to get a list with possible FACOIN command-line options.</source>
+        <source>Show the facoin-qt help message to get a list with possible FACOIN command-line options.</source>
         <translation>Laat het FACOIN-QT help bericht zien om een lijst te krijgen met mogelijke FACOIN command-regel opties.</translation>
     </message>
     <message>

@@ -11,9 +11,9 @@ FacoinUnits::FacoinUnits(QObject *parent):
 QList<FacoinUnits::Unit> FacoinUnits::availableUnits()
 {
     QList<FacoinUnits::Unit> unitlist;
-    unitlist.append(BTC);
-    unitlist.append(mBTC);
-    unitlist.append(uBTC);
+    unitlist.append(FAC);
+    unitlist.append(mFAC);
+    unitlist.append(uFAC);
     return unitlist;
 }
 
@@ -21,9 +21,9 @@ bool FacoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case BTC:
-    case mBTC:
-    case uBTC:
+    case FAC:
+    case mFAC:
+    case uFAC:
         return true;
     default:
         return false;
@@ -34,9 +34,9 @@ QString FacoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("FAC");
-    case mBTC: return QString("mFAC");
-    case uBTC: return QString::fromUtf8("μFAC");
+    case FAC: return QString("FAC");
+    case mFAC: return QString("mFAC");
+    case uFAC: return QString::fromUtf8("μFAC");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString FacoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("FACOINs");
-    case mBTC: return QString("Milli-FACOINs (1 / 1,000)");
-    case uBTC: return QString("Micro-FACOINs (1 / 1,000,000)");
+    case FAC: return QString("FACOINs");
+    case mFAC: return QString("Milli-FACOINs (1 / 1,000)");
+    case uFAC: return QString("Micro-FACOINs (1 / 1,000,000)");
     default: return QString("???");
     }
 }
@@ -56,9 +56,9 @@ qint64 FacoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case BTC:  return 100000000;
-    case mBTC: return 100000;
-    case uBTC: return 100;
+    case FAC:  return 100000000;
+    case mFAC: return 100000;
+    case uFAC: return 100;
     default:   return 100000000;
     }
 }
@@ -67,9 +67,9 @@ int FacoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8; // 21,000,000 (# digits, without commas)
-    case mBTC: return 11; // 21,000,000,000
-    case uBTC: return 14; // 21,000,000,000,000
+    case FAC: return 8; // 21,000,000 (# digits, without commas)
+    case mFAC: return 11; // 21,000,000,000
+    case uFAC: return 14; // 21,000,000,000,000
     default: return 0;
     }
 }
@@ -78,9 +78,9 @@ int FacoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8;
-    case mBTC: return 5;
-    case uBTC: return 2;
+    case FAC: return 8;
+    case mFAC: return 5;
+    case uFAC: return 2;
     default: return 0;
     }
 }

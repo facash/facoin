@@ -1,7 +1,7 @@
 #ifndef QTIPCSERVER_H
 #define QTIPCSERVER_H
 
-// Define FACOIN-Qt message queue name
+// Define facoin-qt message queue name
 #define FACOINURI_QUEUE_NAME "FACOINURI"
 
 void ipcScanRelay(int argc, char *argv[]);

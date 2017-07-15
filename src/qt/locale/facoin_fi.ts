@@ -1068,8 +1068,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>FACOIN-Qt</source>
-        <translation>FACOIN-Qt</translation>
+        <source>facoin-qt</source>
+        <translation>facoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1548,8 +1548,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FACOIN-Qt help message to get a list with possible FACOIN command-line options.</source>
-        <translation>Näytä FACOIN-Qt:n avustusohje saadaksesi listan käytettävistä FACOINin komentokehotteen määritteistä.</translation>
+        <source>Show the facoin-qt help message to get a list with possible FACOIN command-line options.</source>
+        <translation>Näytä facoin-qt:n avustusohje saadaksesi listan käytettävistä FACOINin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>

@@ -1067,7 +1067,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>FACOIN-Qt</source>
+        <source>facoin-qt</source>
         <translation>FACOINQT</translation>
     </message>
     <message>
@@ -1547,7 +1547,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FACOIN-Qt help message to get a list with possible FACOIN command-line options.</source>
+        <source>Show the facoin-qt help message to get a list with possible FACOIN command-line options.</source>
         <translation>FACOINQTのコマンドラインのヘルプ情報を表示する。</translation>
     </message>
     <message>

@@ -147,9 +147,9 @@ int main(int argc, char *argv[])
     app.setOrganizationName("FACOIN");
     //XXX app.setOrganizationDomain("");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        app.setApplicationName("FACOIN-Qt-testnet");
+        app.setApplicationName("facoin-qt-testnet");
     else
-        app.setApplicationName("FACOIN-Qt");
+        app.setApplicationName("facoin-qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;

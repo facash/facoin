@@ -107,7 +107,7 @@ bool parseFacoinURI(const QUrl &uri, SendCoinsRecipient *out)
         {
             if(!i->second.isEmpty())
             {
-                if(!FacoinUnits::parse(FacoinUnits::BTC, i->second, &rv.amount))
+                if(!FacoinUnits::parse(FacoinUnits::FAC, i->second, &rv.amount))
                 {
                     return false;
                 }
@@ -421,7 +421,7 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("FACOIN-Qt") + " " + tr("version") + " " +
+    header = tr("facoin-qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
         "  facoin-qt [" + tr("command-line options") + "]                     " + "\n";
@@ -433,7 +433,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -min                   " + tr("Start minimized") + "\n" +
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n";
 
-    setWindowTitle(tr("FACOIN-Qt"));
+    setWindowTitle(tr("facoin-qt"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));

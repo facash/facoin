@@ -1059,8 +1059,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>FACOIN-Qt</source>
-        <translation>FACOIN-Qt</translation>
+        <source>facoin-qt</source>
+        <translation>facoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1539,8 +1539,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FACOIN-Qt help message to get a list with possible FACOIN command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de FACOIN-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres FACOIN.</translation>
+        <source>Show the facoin-qt help message to get a list with possible FACOIN command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de facoin-qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres FACOIN.</translation>
     </message>
     <message>
         <location line="+3"/>

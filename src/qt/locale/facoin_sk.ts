@@ -1067,8 +1067,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>FACOIN-Qt</source>
-        <translation>FACOIN-Qt</translation>
+        <source>facoin-qt</source>
+        <translation>facoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1547,8 +1547,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FACOIN-Qt help message to get a list with possible FACOIN command-line options.</source>
-        <translation>Zobraziť FACOIN-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku FACOIN.</translation>
+        <source>Show the facoin-qt help message to get a list with possible FACOIN command-line options.</source>
+        <translation>Zobraziť facoin-qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku FACOIN.</translation>
     </message>
     <message>
         <location line="+3"/>

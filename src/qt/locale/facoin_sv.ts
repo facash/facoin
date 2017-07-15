@@ -1069,8 +1069,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>FACOIN-Qt</source>
-        <translation>FACOIN-Qt</translation>
+        <source>facoin-qt</source>
+        <translation>facoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1549,8 +1549,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FACOIN-Qt help message to get a list with possible FACOIN command-line options.</source>
-        <translation>Visa FACOIN-Qt hjälp meddelandet för att få en lista över möjliga FACOIN kommandoradsalternativ.</translation>
+        <source>Show the facoin-qt help message to get a list with possible FACOIN command-line options.</source>
+        <translation>Visa facoin-qt hjälp meddelandet för att få en lista över möjliga FACOIN kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>

@@ -1071,8 +1071,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>FACOIN-Qt</source>
-        <translation>FACOIN-Qt</translation>
+        <source>facoin-qt</source>
+        <translation>facoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1551,8 +1551,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FACOIN-Qt help message to get a list with possible FACOIN command-line options.</source>
-        <translation>Mostrar el mensaje de ayuda de FACOIN-Qt para obtener una lista con las posibles opciones de línea de comandos para FACOIN.</translation>
+        <source>Show the facoin-qt help message to get a list with possible FACOIN command-line options.</source>
+        <translation>Mostrar el mensaje de ayuda de facoin-qt para obtener una lista con las posibles opciones de línea de comandos para FACOIN.</translation>
     </message>
     <message>
         <location line="+3"/>
